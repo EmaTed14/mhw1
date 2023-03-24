@@ -1,0 +1,230 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #dad7cd;
+}
+
+
+footer {
+    display: flex;
+    background-color: #344E41;
+    font-size: 22px;
+    height: 50px;
+    font-weight: lighter;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navigazione
+{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+/*Intestazione */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    /*spazio tra i bottoni */
+    align-items: center;
+    height: 50px;
+    background-color: #344E41;
+
+}
+
+
+/*Bottoni home */
+.navbar a {
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 7px 7px;
+    text-decoration: none;
+    border: #cbe6ca solid 3px;
+    font-style: oblique;
+
+}
+
+
+header {
+    display: flex;
+    background-image: url("./img/intestazione.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    height: 500px;
+    width: 100%;
+}
+
+
+.fotoprofilo {
+    margin-top: -50px;
+    display: flex;
+    position: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+
+
+}
+
+
+
+.fotoprofilo img {
+    border-radius: 100%;
+    border: 3px groove #588157;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+}
+
+.info {
+    text-align: center;
+    margin-top: -20px;
+    color: #344E41;
+}
+
+.info p {
+    margin-top: -20px;
+    font-style: oblique;
+}
+
+.info img {
+
+    height: 50px;
+    text-align: center;
+    margin-top: -40px;
+
+
+
+}
+
+.titoloprincipale {
+    font-style: oblique;
+    max-width: 780px;
+    color: white;
+    z-index: 1;
+}
+
+.articoli {
+    margin-top: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.articolo {
+
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.contenuto {
+    max-width: 66.67%;
+}
+
+
+.numero {
+
+    padding-right: 40px;
+
+
+}
+
+.numero h1 {
+    margin-top: 0px;
+    font-size: 40px;
+    color: #132a13;
+    font-weight: bold;
+}
+
+
+.titolo {
+    margin-top: 0px;
+    font-size: 30px;
+    color: #344E41;
+    font-weight: bold;
+
+
+}
+
+.testo {
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.commento {
+    color: #418740;
+    font-style: italic;
+}
+
+.commentofinale {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #386641;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.immagine {
+
+    text-align: center;
+}
+
+.immagine img {
+    border-radius: 5%;
+    margin-bottom: 120px;
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+    .articoli {
+        margin: 40px 10px;
+    }
+}
+
+@media(max-width:500px) {
+    .titoloprincipale {
+        text-align: center;
+
+    }
+}
+
+
+@media(max-width:500px) {
+    .navbar a  {
+        font-size:16px;
+
+    }
+}
+
+
+
